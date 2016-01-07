@@ -227,6 +227,10 @@ on post-fs-data
     chmod 0660 /dev/tspdrv
     chown vibe vibe /dev/tspdrv
 
+    # Vibrator
+    chmod 0644 /sys/class/timed_output/vibrator/pwm_value
+    chown root system /sys/class/timed_output/vibrator/pwm_value
+
 # Permissions for InputDevices.
     chown system radio /sys/class/sec/tsp/cmd
     chown system system /sys/class/sec/sec_touchkey/brightness

@@ -74,6 +74,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_POWERHAL_VARIANT := qcom
 
 # Radio
+TARGET_USES_VENDOR_APN := true
 BOARD_RIL_CLASS := ../../../$(KS01LTE_PATH)/ril
 
 # Recovery
