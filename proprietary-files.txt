@@ -359,7 +359,6 @@ vendor/lib/libqti-perfd-client.so
 
 # RIL
 bin/bridgemgrd
-bin/cnd
 bin/efsks
 bin/ks
 bin/qcks
