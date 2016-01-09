@@ -57,6 +57,7 @@ debug.sensors=1
 ro.qc.sdk.sensors.gestures=true
 ro.qc.sdk.gestures.camera=false
 ro.qc.sdk.camera.facialproc=false
+ro.sensirionhal=ks01lteskt
 
 # Tethering
 net.tethering.noprovisioning=true
