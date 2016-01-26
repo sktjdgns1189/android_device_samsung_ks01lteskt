@@ -40,7 +40,7 @@ import com.android.internal.telephony.uicc.IccCardStatus;
  */
 public class ks01lteRIL extends RIL implements CommandsInterface {
 
-    private boolean DBG = true;
+    private boolean DBG = false;
     private boolean setPreferredNetworkTypeSeen = false;
 
     public ks01lteRIL(Context context, int preferredNetworkType,
