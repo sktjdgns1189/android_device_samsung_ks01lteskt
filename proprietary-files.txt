@@ -336,7 +336,6 @@ etc/sec_config
 # Media
 vendor/lib/libDivxDrm.so
 vendor/lib/libExtendedExtractor.so
-vendor/lib/libHevcSwDecoder.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAmrwbplusDec.so
