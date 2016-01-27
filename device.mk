@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsamsung_symbols
 
+# Snap Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
