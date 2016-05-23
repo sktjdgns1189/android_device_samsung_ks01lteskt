@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     libxml2
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # Input device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc \
